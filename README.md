@@ -1,5 +1,7 @@
 # m10c theme
 
+This is my own fork, so some changes will happen (Tables -- I'm looking at you!)
+
 ![Intro](https://github.com/vaga/hugo-theme-m10c/blob/master/images/cover.png)
 
 A Hugo minimalistic theme for bloggers
