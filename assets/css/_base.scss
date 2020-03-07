@@ -35,7 +35,7 @@ table {
 }
 
 tr:nth-child(even) {
-    background-color: $dark-color;
+    background-color: $darkest-color;
 }
 
 // Browsers seem to use a smaller default font-size with monospaced code
