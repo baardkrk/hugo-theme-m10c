@@ -39,7 +39,7 @@ th {
 }
 
 tr:nth-child(even), tr:hover {
-    background-color: color.scale($dark-color, $lightness: 10%);
+    background-color: scale-color($dark-color, $lightness: 10%);
 }
 
 // Browsers seem to use a smaller default font-size with monospaced code
