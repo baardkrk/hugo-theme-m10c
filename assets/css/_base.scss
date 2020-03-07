@@ -37,11 +37,11 @@ th {
     background-color: $darkest-color;
 }
 
-tr:nth-child(odd) {
+tr:nth-child(even) {
     background-color: scale-color($dark-color, $lightness: 10%);
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
     background-color: scale-color($dark-color, $lightness: 5%);
 }
 
