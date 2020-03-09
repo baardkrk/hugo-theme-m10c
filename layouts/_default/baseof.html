@@ -25,6 +25,15 @@
           <a target="_blank" href="{{ .url }}" rel="noreferrer noopener">{{ partial "icon.html" (dict "ctx" $ "name" .name ) }}</a>
         {{ end }}
       </div>
+      <div class="app-header-tags">
+	{{- with ($.Site.GetPage "/%s/%s" "tags").Pages -}}
+	<div>
+	  {{ range . -}}
+	      <a class="tag" href="{{ .Permalink }}">{{ .Title }}</a>
+	  {{- end -}}
+	</div>
+	{{- end -}}
+      </div>
     </header>
     <main class="app-container">
       {{ block "main" . }}
